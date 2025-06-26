@@ -8,6 +8,8 @@ namespace SuperHeroAPI.Controllers
     public class SuperHeroController : ControllerBase
     {
 
+
+
         public IConfiguration Configuration { get; set; }
 
         public SuperHeroController(IConfiguration configuration)
@@ -16,27 +18,26 @@ namespace SuperHeroAPI.Controllers
         }    
 
         private static readonly List<SuperHero> hero = new List<SuperHero>
-            {
-                
+            {          
              new SuperHero
                 {
-                //Name = "name",
-                //FirstName = "first",
-                //LastName = "first",
-                 //Origin = ""
+                 Name = "Captain America",
+                 FirstName = "Stave",
+                 LastName = "Rogers",
+                 Origin = "Brooklyn"
                  },
              new SuperHero
-                { 
+                {
+                 Name = "Iron Man",
+                 FirstName = "Tony",
+                 LastName = "Stark",
+                 Origin = "US"
                 }
             };
 
         [HttpGet] 
         public async Task<ActionResult<SuperHero>> Get()
         {
-            var summa = new SuperHero
-            {
-            };
-
             return Ok(hero);
         }
 
