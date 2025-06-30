@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "E:\\Rajesh\\Git\\SuperHero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|e:\\rajesh\\git\\superhero\\superheroapi\\controllers\\superherocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|solutionrelative:superheroapi\\controllers\\superherocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB2C2F69-104D-49A3-9CAE-32B38F62012D}|DataAccess\\DataAccess.csproj|e:\\rajesh\\git\\superhero\\dataaccess\\repositories\\superherorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2C2F69-104D-49A3-9CAE-32B38F62012D}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\superherorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|e:\\rajesh\\git\\superhero\\superheroapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|solutionrelative:superheroapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|e:\\rajesh\\git\\superhero\\businesslogic\\services\\superheroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\superheroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|e:\\rajesh\\git\\superhero\\businesslogic\\interfaces\\services\\isuperhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\interfaces\\services\\isuperhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|e:\\rajesh\\git\\superhero\\businesslogic\\interfaces\\repositories\\isuperherorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\interfaces\\repositories\\isuperherorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|e:\\rajesh\\git\\superhero\\businesslogic\\models\\superhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC9ABD1-5420-44F5-BF11-3E108F5B8C08}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\models\\superhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2C2F69-104D-49A3-9CAE-32B38F62012D}|DataAccess\\DataAccess.csproj|e:\\rajesh\\git\\superhero\\dataaccess\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2C2F69-104D-49A3-9CAE-32B38F62012D}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2C2F69-104D-49A3-9CAE-32B38F62012D}|DataAccess\\DataAccess.csproj|e:\\rajesh\\git\\superhero\\dataaccess\\entities\\superheroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2C2F69-104D-49A3-9CAE-32B38F62012D}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\superheroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|e:\\rajesh\\git\\superhero\\superheroapi\\superhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|solutionrelative:superheroapi\\superhero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|e:\\rajesh\\git\\superhero\\superheroapi\\controllers\\superherocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89B938D-35A9-4744-9C05-52ACA4B2AEE5}|SuperHeroAPI\\SuperHeroAPI.csproj|solutionrelative:superheroapi\\controllers\\superherocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,43 +46,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\SuperHeroAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "SuperHeroAPI\\appsettings.json",
-              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\SuperHeroAPI\\appsettings.json",
-              "RelativeToolTip": "SuperHeroAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-25T04:09:37.851Z"
+              "Title": "SuperHeroService.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Services\\SuperHeroService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\SuperHeroService.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Services\\SuperHeroService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\SuperHeroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T15:01:38.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SuperHeroRepository.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\DataAccess\\Repositories\\SuperHeroRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\SuperHeroRepository.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\DataAccess\\Repositories\\SuperHeroRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\SuperHeroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:56:18.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SuperHero.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Models\\SuperHero.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Models\\SuperHero.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Models\\SuperHero.cs",
+              "RelativeToolTip": "BusinessLogic\\Models\\SuperHero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:54:26.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISuperHeroRepository.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Interfaces\\Repositories\\ISuperHeroRepository.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Interfaces\\Repositories\\ISuperHeroRepository.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Interfaces\\Repositories\\ISuperHeroRepository.cs",
+              "RelativeToolTip": "BusinessLogic\\Interfaces\\Repositories\\ISuperHeroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:53:42.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\DataAccess\\DataContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DataContext.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\DataAccess\\DataContext.cs",
+              "RelativeToolTip": "DataAccess\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T12:00:41.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SuperHero.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\SuperHeroAPI\\SuperHero.cs",
+              "RelativeDocumentMoniker": "SuperHeroAPI\\SuperHero.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\SuperHeroAPI\\SuperHero.cs",
+              "RelativeToolTip": "SuperHeroAPI\\SuperHero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T11:59:25.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SuperHeroEntity.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\DataAccess\\Entities\\SuperHeroEntity.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\SuperHeroEntity.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\DataAccess\\Entities\\SuperHeroEntity.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\SuperHeroEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T11:58:04.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SuperHeroController.cs",
               "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\SuperHeroAPI\\Controllers\\SuperHeroController.cs",
               "RelativeDocumentMoniker": "SuperHeroAPI\\Controllers\\SuperHeroController.cs",
-              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\SuperHeroAPI\\Controllers\\SuperHeroController.cs*",
-              "RelativeToolTip": "SuperHeroAPI\\Controllers\\SuperHeroController.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAdAAAAAAAAAA==",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\SuperHeroAPI\\Controllers\\SuperHeroController.cs",
+              "RelativeToolTip": "SuperHeroAPI\\Controllers\\SuperHeroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:17:09.358Z",
+              "WhenOpened": "2024-11-22T08:17:09.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISuperHero.cs",
+              "DocumentMoniker": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Interfaces\\Services\\ISuperHero.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Interfaces\\Services\\ISuperHero.cs",
+              "ToolTip": "E:\\Rajesh\\Git\\SuperHero\\BusinessLogic\\Interfaces\\Services\\ISuperHero.cs",
+              "RelativeToolTip": "BusinessLogic\\Interfaces\\Services\\ISuperHero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T10:41:26.905Z",
               "EditorCaption": ""
             }
           ]

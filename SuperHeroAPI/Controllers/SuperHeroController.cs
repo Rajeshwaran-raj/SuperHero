@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BusinessLogic.Interfaces.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SuperHeroAPI.Controllers
@@ -7,46 +8,54 @@ namespace SuperHeroAPI.Controllers
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
-
-
-
-        public IConfiguration Configuration { get; set; }
-
-        public SuperHeroController(IConfiguration configuration)
+        private readonly ISuperHero _service;
+        public SuperHeroController(ISuperHero superHero)
         {
-            Configuration = configuration;
-        }    
-
-        private static readonly List<SuperHero> hero = new List<SuperHero>
-            {          
-             new SuperHero
-                {
-                 Name = "Captain America",
-                 FirstName = "Stave",
-                 LastName = "Rogers",
-                 Origin = "Brooklyn"
-                 },
-             new SuperHero
-                {
-                 Name = "Iron Man",
-                 FirstName = "Tony",
-                 LastName = "Stark",
-                 Origin = "US"
-                }
-            };
-
-        [HttpGet] 
-        public async Task<ActionResult<SuperHero>> Get()
-        {
-            return Ok(hero);
+            this._service = _service;
         }
 
-        [HttpGet("ConnectionString")]
-        public IActionResult GetConnectionString()
+
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetAll() => Ok(await _service.GetAllUsersAsync());
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Get(Guid id)
         {
-            var connectionString = Configuration.GetConnectionString("ConnectionService");
-            return Ok(connectionString);
+            var user = await _service.GetUserByIdAsync(id);
+            return user == null ? NotFound() : Ok(user);
         }
-        
+
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Create(SuperHero superHero)
+        {
+            await _service.AddUserAsync(superHero);
+            return CreatedAtAction(nameof(Get), new { id = superHero.Id }, superHero);
+        }
+
+        [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Update(Guid id, SuperHero superHero)
+        {
+            if (id != superHero.Id) return BadRequest();
+            await _service.UpdateUserAsync(superHero);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            await _service.DeleteUserAsync(id);
+            return NoContent();
+        }
+
     }
 }
