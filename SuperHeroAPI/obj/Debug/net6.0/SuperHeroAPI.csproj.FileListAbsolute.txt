@@ -67,40 +67,74 @@ E:\Rajesh\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.sourcelink.json
 E:\Rajesh\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.endpoints.json
 E:\Rajesh\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets\msbuild.SuperHeroAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 E:\Rajesh\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\appsettings.Development.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\appsettings.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.staticwebassets.endpoints.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.exe
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.deps.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.runtimeconfig.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.dll
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.pdb
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.csproj.AssemblyReference.cache
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.GeneratedMSBuildEditorConfig.editorconfig
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.AssemblyInfoInputs.cache
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.AssemblyInfo.cs
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.csproj.CoreCompileInputs.cache
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.MvcApplicationPartsAssemblyInfo.cs
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.MvcApplicationPartsAssemblyInfo.cache
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.sourcelink.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\scopedcss\bundle\SuperHeroAPI.styles.css
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.development.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.endpoints.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets\msbuild.SuperHeroAPI.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets\msbuild.SuperHeroAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.SuperHeroAPI.props
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SuperHeroAPI.props
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SuperHeroAPI.props
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.pack.json
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHer.391A7880.Up2Date
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.dll
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\refint\SuperHeroAPI.dll
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.pdb
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.genruntimeconfig.cache
-E:\Rajesh\Git\SuperHero\SuperHeroAPI\obj\Debug\net6.0\ref\SuperHeroAPI.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.staticwebassets.endpoints.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.exe
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.deps.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.runtimeconfig.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.pdb
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.csproj.AssemblyReference.cache
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.AssemblyInfoInputs.cache
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.AssemblyInfo.cs
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.csproj.CoreCompileInputs.cache
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\scopedcss\bundle\SuperHeroAPI.styles.css
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHer.391A7880.Up2Date
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\refint\SuperHeroAPI.dll
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.pdb
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.genruntimeconfig.cache
+C:\Users\RajeshwaranMurugesan\Downloads\SuperHero-main (1)\SuperHero-main\SuperHeroAPI\obj\Debug\net6.0\ref\SuperHeroAPI.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\appsettings.Development.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\appsettings.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.staticwebassets.endpoints.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.exe
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.deps.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.runtimeconfig.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\SuperHeroAPI.pdb
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.csproj.AssemblyReference.cache
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\rpswa.dswa.cache.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.AssemblyInfoInputs.cache
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.AssemblyInfo.cs
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.csproj.CoreCompileInputs.cache
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.sourcelink.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\rjimswa.dswa.cache.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\scopedcss\bundle\SuperHeroAPI.styles.css
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.json.cache
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.development.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHer.391A7880.Up2Date
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\refint\SuperHeroAPI.dll
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.pdb
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\SuperHeroAPI.genruntimeconfig.cache
+E:\Rajesh\GitHub\SuperHero\SuperHeroAPI\obj\Debug\net6.0\ref\SuperHeroAPI.dll
