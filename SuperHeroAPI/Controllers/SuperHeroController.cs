@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
+using SuperHeroAPI.Models;
 
 namespace SuperHeroAPI.Controllers
 {
@@ -7,27 +8,29 @@ namespace SuperHeroAPI.Controllers
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
-        private readonly DataContext _context;
-        private readonly ILogger<SuperHeroController> logger;
+        private readonly IMongoCollection<SuperHero> _superHeroes;
+        private readonly ILogger<SuperHeroController> _logger;
 
-        public SuperHeroController(DataContext context, ILogger<SuperHeroController> logger)
+        public SuperHeroController(IMongoClient mongoClient, ILogger<SuperHeroController> logger)
         {
-            _context = context;
-            this.logger = logger;
+            var database = mongoClient.GetDatabase("superherodb"); // 👈 use your DB name
+            _superHeroes = database.GetCollection<SuperHero>("SuperHeroes");
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<SuperHero>>> Get()
         {
-            return Ok(await _context.SuperHeroes.ToListAsync());
+            var heroes = await _superHeroes.Find(_ => true).ToListAsync();
+            return Ok(heroes);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<SuperHero>> Get(Guid id)
+        public async Task<ActionResult<SuperHero>> Get(string id)
         {
-            var hero = await _context.SuperHeroes.FindAsync(id);
+            var hero = await _superHeroes.Find(h => h.Id == id).FirstOrDefaultAsync();
             if (hero == null)
-                return BadRequest("Hero not found.");
+                return NotFound("Hero not found.");
             return Ok(hero);
         }
 
@@ -36,14 +39,13 @@ namespace SuperHeroAPI.Controllers
         {
             try
             {
-                _context.SuperHeroes.Add(hero);
-                await _context.SaveChangesAsync();
-
-                return Ok(await _context.SuperHeroes.ToListAsync());
+                await _superHeroes.InsertOneAsync(hero);
+                var heroes = await _superHeroes.Find(_ => true).ToListAsync();
+                return Ok(heroes);
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error occurred while adding a hero");
+                _logger.LogError(ex, "Error occurred while adding a hero");
                 return BadRequest(ex.Message);
             }
         }
@@ -51,32 +53,25 @@ namespace SuperHeroAPI.Controllers
         [HttpPut]
         public async Task<ActionResult<List<SuperHero>>> UpdateHero(SuperHero request)
         {
-            var dbHero = await _context.SuperHeroes.FindAsync(request.Id);
-            if (dbHero == null)
-                return BadRequest("Hero not found.");
+            var result = await _superHeroes.ReplaceOneAsync(h => h.Id == request.Id, request);
 
-            dbHero.Name = request.Name;
-            dbHero.FirstName = request.FirstName;
-            dbHero.LastName = request.LastName;
-            dbHero.Place = request.Place;
+            if (result.MatchedCount == 0)
+                return NotFound("Hero not found.");
 
-            await _context.SaveChangesAsync();
-
-            return Ok(await _context.SuperHeroes.ToListAsync());
+            var heroes = await _superHeroes.Find(_ => true).ToListAsync();
+            return Ok(heroes);
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<List<SuperHero>>> Delete(Guid id)
+        public async Task<ActionResult<List<SuperHero>>> Delete(string id)
         {
-            var dbHero = await _context.SuperHeroes.FindAsync(id);
-            if (dbHero == null)
-                return BadRequest("Hero not found.");
+            var result = await _superHeroes.DeleteOneAsync(h => h.Id == id);
 
-            _context.SuperHeroes.Remove(dbHero);
-            await _context.SaveChangesAsync();
+            if (result.DeletedCount == 0)
+                return NotFound("Hero not found.");
 
-            return Ok(await _context.SuperHeroes.ToListAsync());
+            var heroes = await _superHeroes.Find(_ => true).ToListAsync();
+            return Ok(heroes);
         }
-
     }
 }

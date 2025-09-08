@@ -109,8 +109,7 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -147,8 +146,7 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string",
-              "format": "uuid"
+              "type": "string"
             }
           }
         ],
@@ -250,7 +248,7 @@
         "properties": {
           "id": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
           "name": {
             "type": "string",

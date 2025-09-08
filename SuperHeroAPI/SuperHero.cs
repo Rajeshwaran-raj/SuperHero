@@ -1,11 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
-namespace SuperHeroAPI
+namespace SuperHeroAPI.Models
 {
     public class SuperHero
     {
-        [Column(TypeName = "uuid")]
-        public Guid Id { get; set; }
+        [BsonId] // MongoDB requires an Id
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; } = string.Empty;
+
         public string Name { get; set; } = string.Empty;
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;

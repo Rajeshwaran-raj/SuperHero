@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.Models.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +29,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SuperHeroAPI.SuperHero",
+        "Type": "SuperHeroAPI.Models.SuperHero",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.Models.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -55,13 +55,13 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Guid",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "SuperHeroAPI.SuperHero",
+        "Type": "SuperHeroAPI.Models.SuperHero",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -81,13 +81,13 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Guid",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.Models.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,13 +107,13 @@
     "Parameters": [
       {
         "Name": "hero",
-        "Type": "SuperHeroAPI.SuperHero",
+        "Type": "SuperHeroAPI.Models.SuperHero",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[SuperHeroAPI.Models.SuperHero, SuperHeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

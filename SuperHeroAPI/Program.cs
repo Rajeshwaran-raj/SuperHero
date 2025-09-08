@@ -1,41 +1,31 @@
-﻿global using Microsoft.EntityFrameworkCore;
-global using SuperHeroAPI.Data;
-
+﻿using MongoDB.Driver;
+using SuperHeroAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Add services to the container
 builder.Services.AddControllers();
-//builder.Services.AddDbContext<DataContext>(options =>
-//{
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-//});
 
-//builder.Services.AddDbContext<DataContext>(options =>
-//    options.UseMySql(
-//        builder.Configuration.GetConnectionString("DefaultConnection"),
-//        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
-//    ));
-builder.Services.AddDbContext<DataContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Configure MongoDB
+builder.Services.AddSingleton<IMongoClient>(sp =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    return new MongoClient(connectionString);
+});
 
+builder.Services.AddScoped(sp =>
+{
+    var client = sp.GetRequiredService<IMongoClient>();
+    var database = client.GetDatabase("superherodb"); // database name
+    return database.GetCollection<SuperHero>("SuperHeroes"); // collection name
+});
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// 🚀 Apply migrations automatically
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<DataContext>();
-    db.Database.Migrate(); // this ensures migrations are applied
-}
-
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -43,9 +33,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
