@@ -5,9 +5,9 @@ namespace SuperHeroAPI.Models
 {
     public class SuperHero
     {
-        [BsonId] // MongoDB requires an Id
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; } = string.Empty;
+        [BsonId] // Marks this property as the MongoDB _id
+        [BsonRepresentation(BsonType.ObjectId)] // Converts ObjectId <-> string
+        public string Id { get; set; } = null!;
 
         public string Name { get; set; } = string.Empty;
         public string FirstName { get; set; } = string.Empty;
