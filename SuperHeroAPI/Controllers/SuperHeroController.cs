@@ -23,7 +23,7 @@ namespace SuperHeroAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<SuperHero>> Get(int id)
+        public async Task<ActionResult<SuperHero>> Get(Guid id)
         {
             var hero = await _context.SuperHeroes.FindAsync(id);
             if (hero == null)
@@ -66,7 +66,7 @@ namespace SuperHeroAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<List<SuperHero>>> Delete(int id)
+        public async Task<ActionResult<List<SuperHero>>> Delete(Guid id)
         {
             var dbHero = await _context.SuperHeroes.FindAsync(id);
             if (dbHero == null)
