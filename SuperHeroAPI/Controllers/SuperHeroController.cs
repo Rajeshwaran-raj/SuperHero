@@ -7,46 +7,76 @@ namespace SuperHeroAPI.Controllers
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
+        private readonly DataContext _context;
+        private readonly ILogger<SuperHeroController> logger;
 
-
-
-        public IConfiguration Configuration { get; set; }
-
-        public SuperHeroController(IConfiguration configuration)
+        public SuperHeroController(DataContext context, ILogger<SuperHeroController> logger)
         {
-            Configuration = configuration;
-        }    
+            _context = context;
+            this.logger = logger;
+        }
 
-        private static readonly List<SuperHero> hero = new List<SuperHero>
-            {          
-             new SuperHero
-                {
-                 Name = "Captain America",
-                 FirstName = "Stave",
-                 LastName = "Rogers",
-                 Origin = "Brooklyn"
-                 },
-             new SuperHero
-                {
-                 Name = "Iron Man",
-                 FirstName = "Tony",
-                 LastName = "Stark",
-                 Origin = "US"
-                }
-            };
-
-        [HttpGet] 
-        public async Task<ActionResult<SuperHero>> Get()
+        [HttpGet]
+        public async Task<ActionResult<List<SuperHero>>> Get()
         {
+            return Ok(await _context.SuperHeroes.ToListAsync());
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<SuperHero>> Get(int id)
+        {
+            var hero = await _context.SuperHeroes.FindAsync(id);
+            if (hero == null)
+                return BadRequest("Hero not found.");
             return Ok(hero);
         }
 
-        [HttpGet("ConnectionString")]
-        public IActionResult GetConnectionString()
+        [HttpPost("CreateSuperHero")]
+        public async Task<ActionResult<List<SuperHero>>> AddHero(SuperHero hero)
         {
-            var connectionString = Configuration.GetConnectionString("ConnectionService");
-            return Ok(connectionString);
+            try
+            {
+                _context.SuperHeroes.Add(hero);
+                await _context.SaveChangesAsync();
+
+                return Ok(await _context.SuperHeroes.ToListAsync());
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Error occurred while adding a hero");
+                return BadRequest(ex.Message);
+            }
         }
-        
+
+        [HttpPut]
+        public async Task<ActionResult<List<SuperHero>>> UpdateHero(SuperHero request)
+        {
+            var dbHero = await _context.SuperHeroes.FindAsync(request.Id);
+            if (dbHero == null)
+                return BadRequest("Hero not found.");
+
+            dbHero.Name = request.Name;
+            dbHero.FirstName = request.FirstName;
+            dbHero.LastName = request.LastName;
+            dbHero.Place = request.Place;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(await _context.SuperHeroes.ToListAsync());
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<List<SuperHero>>> Delete(int id)
+        {
+            var dbHero = await _context.SuperHeroes.FindAsync(id);
+            if (dbHero == null)
+                return BadRequest("Hero not found.");
+
+            _context.SuperHeroes.Remove(dbHero);
+            await _context.SaveChangesAsync();
+
+            return Ok(await _context.SuperHeroes.ToListAsync());
+        }
+
     }
 }

@@ -1,11 +1,14 @@
-﻿namespace SuperHeroAPI
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SuperHeroAPI
 {
     public class SuperHero
     {
-        public int Id { get; set; }
-        public string Name { get; set; } = String.Empty;
-        public string FirstName { get; set; } = String.Empty;
-        public string LastName { get; set; } = String.Empty;
-        public string Origin { get; set; } = String.Empty;
+        [Column(TypeName = "char(36)")]
+        public Guid Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string Place { get; set; } = string.Empty;
     }
 }
