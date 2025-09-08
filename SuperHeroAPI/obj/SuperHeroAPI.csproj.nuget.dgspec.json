@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rajesh\\Cloned\\SuperHeroAPI-DotNet6\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
+    "E:\\Rajesh\\GitHub\\SuperHero\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
   },
   "projects": {
-    "E:\\Rajesh\\Cloned\\SuperHeroAPI-DotNet6\\SuperHeroAPI\\SuperHeroAPI.csproj": {
+    "E:\\Rajesh\\GitHub\\SuperHero\\SuperHeroAPI\\SuperHeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rajesh\\Cloned\\SuperHeroAPI-DotNet6\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectUniqueName": "E:\\Rajesh\\GitHub\\SuperHero\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "projectName": "SuperHeroAPI",
-        "projectPath": "E:\\Rajesh\\Cloned\\SuperHeroAPI-DotNet6\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectPath": "E:\\Rajesh\\GitHub\\SuperHero\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "packagesPath": "C:\\Users\\RajeshwaranMurugesan\\.nuget\\packages\\",
-        "outputPath": "E:\\Rajesh\\Cloned\\SuperHeroAPI-DotNet6\\SuperHeroAPI\\obj\\",
+        "outputPath": "E:\\Rajesh\\GitHub\\SuperHero\\SuperHeroAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -48,34 +48,34 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.28, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.11, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
