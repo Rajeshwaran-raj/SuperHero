@@ -4,7 +4,7 @@ namespace SuperHeroAPI
 {
     public class SuperHero
     {
-        [Column(TypeName = "char(36)")]
+        [Column(TypeName = "uuid")]
         public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public string FirstName { get; set; } = string.Empty;

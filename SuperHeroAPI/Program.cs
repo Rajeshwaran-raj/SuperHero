@@ -1,6 +1,5 @@
 ﻿global using Microsoft.EntityFrameworkCore;
 global using SuperHeroAPI.Data;
-using Pomelo.EntityFrameworkCore.MySql; // add this namespace
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,11 +12,14 @@ builder.Services.AddControllers();
 //    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 //});
 
+//builder.Services.AddDbContext<DataContext>(options =>
+//    options.UseMySql(
+//        builder.Configuration.GetConnectionString("DefaultConnection"),
+//        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+//    ));
 builder.Services.AddDbContext<DataContext>(options =>
-    options.UseMySql(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
-    ));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
