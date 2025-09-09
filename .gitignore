@@ -361,3 +361,16 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Visual Studio cache
+.vs/
+*.dtbcache
+
+# Build artifacts
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+*.assembly
