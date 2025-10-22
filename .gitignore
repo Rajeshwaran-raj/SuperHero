@@ -374,3 +374,18 @@ obj/
 *.exe
 *.cache
 *.assembly
+
+
+# User-specific Visual Studio solution options
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache files
+*.cache
+*.dtbcache
+*.VC.db
+*.VC.VC.opendb
+.vs/
+ipch/
