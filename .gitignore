@@ -375,3 +375,6 @@ obj/
 *.exe
 *.cache
 *.assembly
+
+
+.env
